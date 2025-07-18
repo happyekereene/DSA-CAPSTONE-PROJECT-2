@@ -1,6 +1,6 @@
 # DSA-CAPSTONE-PROJECT-2
 
-### Project Title: Amazon Product Rating and Review
+### PALMORIA GROUP HUMAN RESOURCE ANALYSIS
 
 [Project Overview](project-overview)
 
