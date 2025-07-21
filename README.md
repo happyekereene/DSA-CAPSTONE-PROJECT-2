@@ -51,14 +51,43 @@ Raw Dataset (Palmoria Group emp-data.csv) [view](https://canvas.instructure.com/
 ### Tools Used
 ---
 -Microsoft PowerBI Desktop [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+1. Data Cleaning
+2. Data Analysis
+3. Visualization
+- Github for portfolio building
+  
+### Data Cleaning and Preparation
+---
 1. Data observation
    * Data Loadng
    * Blank Rows: It was observed that some employees refused to disclose their gender while some are without a salary because they are no longer with the company.
    * Unassigned values: Some departments returned as "NULL" while some employees were "NOT RATED" under the rating column; lacking the criteria for bonus allocation
    * Bonus Rule table had values for multiple ratings (Very Good, Good, Average, Poor and Very Poor) by corresponding departments.
 2. Data Cleaning
+
    Upon loading of dataset, transformation was made in the following order:
-   *Data Formatting: Ensure all texts, currency values, and percentages are formatted consistently
-4. Data analysis
-5. Visualization
-- Github for portfolio building
+   * Data Formatting: Ensure all texts, currency values, and percentages are formatted consistently.
+   * Replacing Blanks Rows: Used "Edit Query" to replace blank values with "Unspecified" in the Gender column for workers who did not indicate their gender.
+   * Removing Blanks Rows: Simply by unchecking "blanks" within the Salary column as those workers no longer work with the company in consideration.
+   
+### Exploratory Data Analysis
+---
+EDA involved the exploration of the data to answer some questions about the dataset such as:
+1. What is the gender distribution in the organization? Distil to regions and departments
+2. Show insights on ratings based on gender
+3. Analyse the company’s salary structure. Identify if there is a gender pay gap. If there is, identify the department and regions that should be the focus of management
+4. A recent regulation was adopted which requires manufacturing companies to pay employees a minimum of $90,000
+  * Does Palmoria meet this requirement?
+  * Show the pay distribution of employees grouped by a band of $10,000. For example:
+  * How many employees fall into a band of $10,000 – $20,000, $20,000 – $30,000, etc.?
+  * Also visualize this by regions.
+5. Mr Gamma thought to himself that since you were already working on the employee data, you could help out with allocating the annual bonus pay to employees based on the
+performance rating. He handed you another data set that contains rules for making bonus payments and asked you to:
+  * Calculate the amount to be paid as a bonus to individual employees.
+  * Calculate the total amount to be paid to individual employees (salary inclusive of bonus).
+  * Total amount to be paid out per region and company-wide.
+
+### Data Analysis
+---
+-Descriptive Statistics and Aggregation 
+Used the "Table tools" tab to create a simplified Bonus Percentage column based on data from the Palmoria Group Bonus Rules table. Also used DAX Query to create calculated columns such as Salary Band, Bonus %, Bonus Amount and Total Amount.
