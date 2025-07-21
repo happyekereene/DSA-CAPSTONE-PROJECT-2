@@ -43,15 +43,22 @@ The Palmora Group HR Analysis dataset is an Excel file primarily sourced from DS
 ### Data Description or Characteristics
 ---
 -Datasets
-Raw Dataset (Palmoria Group emp-data.csv) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720549), (Palmoria Group Bonus Rules.xlsx) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720540)
+Raw Dataset (Palmoria Group emp-data.csv) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720549), (Palmoria Group Bonus Rules.xlsx) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720540).
 
 1. The Palmoria Group emp-data: This contains the employees information about their name, gender, department, location and performance rating.
-2. Palmoria Group Bonus Rules contains: This contains the company's bonus allocation criteria for the different departments based on the employees' performance ratings (Very Good, Good, Average, Poor and Very Poor)
+2. Palmoria Group Bonus Rules contains: This contains the company's bonus allocation criteria for the different departments based on the employees' performance ratings (Very Good, Good, Average, Poor and Very Poor).
 
 ### Tools Used
 ---
 -Microsoft PowerBI Desktop [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
-1. Data cleaning 
-2. Data analysis
-3. Visualization
+1. Data observation
+   * Data Loadng
+   * Blank Rows: It was observed that some employees refused to disclose their gender while some are without a salary because they are no longer with the company.
+   * Unassigned values: Some departments returned as "NULL" while some employees were "NOT RATED" under the rating column; lacking the criteria for bonus allocation
+   * Bonus Rule table had values for multiple ratings (Very Good, Good, Average, Poor and Very Poor) by corresponding departments.
+2. Data Cleaning
+   Upon loading of dataset, transformation was made in the following order:
+   *Data Formatting: Ensure all texts, currency values, and percentages are formatted consistently
+4. Data analysis
+5. Visualization
 - Github for portfolio building
