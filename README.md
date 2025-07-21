@@ -42,7 +42,7 @@ The Palmora Group HR Analysis dataset is an Excel file primarily sourced from DS
 
 ### Data Description or Characteristics
 ---
--Datasets
+- Datasets
 Raw Dataset (Palmoria Group emp-data.csv) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720549), (Palmoria Group Bonus Rules.xlsx) [view](https://canvas.instructure.com/courses/11955369/files/folder/DSA%20Capstone%20Project%20Files?preview=302720540).
 
 1. The Palmoria Group emp-data: This contains the employees information about their name, gender, department, location and performance rating.
@@ -50,7 +50,7 @@ Raw Dataset (Palmoria Group emp-data.csv) [view](https://canvas.instructure.com/
 
 ### Tools Used
 ---
--Microsoft PowerBI Desktop [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+- Microsoft PowerBI Desktop [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
 1. Data Cleaning
 2. Data Analysis
 3. Visualization
@@ -125,3 +125,62 @@ performance rating. He handed you another data set that contains rules for makin
 
 ### Data Visualization and Interpretation
 ---
+- Excel Dashboard (AMAZON PRODUCT RATING AND REVIEW)
+
+<img width="420" height="336" alt="Palmoria Group Visuals" src="https://github.com/user-attachments/assets/6fabd963-7cd4-4d04-b4af-c4e03faa0236" />
+
+Upon creating the required calculated columns, data-driven insights were created. Building on those insights, we generated an interactive and visually engaging dashboard to effectively communicate our findings. 
+
+The dashboard consists of:
+
+- **Key Performance Indicators (KPIs)**
+1. Number of Employees: 874
+2. Gender: 3
+3. Departments: 12
+4. Location: 3
+5. Salary >= $90,000: 292
+6. Bonus Amount: $959,894.40
+7. Total Amount: $31,784,474.40
+   
+- **Slicer**
+1. Gender
+2. Departments
+3. Locations
+
+- **Key Insights (Charts)**
+1. Gender Distribution of Employees
+2.	Gender Distribution by Department
+3.	Gender Distribution by Region
+4.	Distribution of Ratings Based on Gender
+5.	Average Salary by Gender
+6.	Salary Band by Region
+7.	Total Amount Paid Per Region
+
+- **Key Insights in Details
+1.	Gender Distribution of Employees
+o	Males: 465 (53.15%)
+o	Females: 441 (46.62%)
+o	Unspecified: 40 (4.23%)
+✅ The company has an almost equal gender balance, with a slight male majority.
+2.	Gender Distribution by Department
+o	Most departments show a fairly balanced gender mix, though some like Product and Engineering have more males.
+✅ Diversity initiatives could target departments with low female representation.
+3.	Gender Distribution by Region
+o	All regions (Kaduna, Abuja, Lagos) have relatively even gender representation, but Kaduna has the highest number of employees.
+✅ Recruitment might be more active in Kaduna or it serves as a major operational hub.
+4.	Average Salary by Gender
+o	Unspecified: $78K
+o	Male: $75K
+o	Female: $72K
+✅ Gender pay gaps are relatively small but still noticeable. Further auditing is recommended.
+
+
+
+
+
+
+
+
+
+
+
