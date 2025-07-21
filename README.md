@@ -89,14 +89,14 @@ performance rating. He handed you another data set that contains rules for makin
 
 ### Data Analysis
 ---
--Descriptive Statistics and Aggregation 
-1. Used the Table tools tab to create a simplified Bonus% table based on data from the Palmoria Group Bonus Rules table.
-2. Also used DAX Query to create calculated columns such as Salary Band, Bonus %, Bonus Amount and Total Amount in the main table (The Palmoria Group emp-data).
+1. Descriptive Statistics and Aggregation 
+  * Used the Table tools tab to create a simplified Bonus% table based on data from the Palmoria Group Bonus Rules table.
+  * Also used DAX Query to create calculated columns such as Salary Band, Bonus %, Bonus Amount and Total Amount in the main table (The Palmoria Group emp-data).
+2.  Queries
+  * Calculation of the "Salary Band" column
 
-- Queries
-1. Calculation of the "Salary Band" column
-
-Salary Band = IF('Palmoria Group emp-data'[Salary]<=30000,"$21K-$30K",
+    Salary Band =
+              IF('Palmoria Group emp-data'[Salary]<=30000,"$21K-$30K",
               IF('Palmoria Group emp-data'[Salary]<=40000,"$31K-$40K",
               IF('Palmoria Group emp-data'[Salary]<=50000,"$41K-$50K",
               IF('Palmoria Group emp-data'[Salary]<=60000,"$51K-$60K",
@@ -106,16 +106,22 @@ Salary Band = IF('Palmoria Group emp-data'[Salary]<=30000,"$21K-$30K",
               IF('Palmoria Group emp-data'[Salary]<=100000,"$91K-$100K",
               IF('Palmoria Group emp-data'[Salary]<=110000,"$101K-$110K","$111K-$120K"))))))))) 
 
-2. Calculation of the "Bonus %" column
+  * Calculation of the "Bonus %" column
 
-Bonus % = LOOKUPVALUE('Bonus% Table'[Bonus Percentage],
+    Bonus % =
+          LOOKUPVALUE('Bonus% Table'[Bonus Percentage],
                       'Bonus Rules'[Department],'Palmoria Group emp-data'[Department],
                       'Bonus% Table'[Rating],'Palmoria Group emp-data'[Rating],0)
 
 3. Calculation of the "Bonus Amount" column
 
-Bonus Amount = 'Palmoria Group emp-data'[Salary]*'Palmoria Group emp-data'[Bonus %]
+    Bonus Amount =
+          'Palmoria Group emp-data'[Salary]*'Palmoria Group emp-data'[Bonus %]
 
-4. Calculation of the "Total Amount" column
+5. Calculation of the "Total Amount" column
 
-'Palmoria Group emp-data'[Salary]+'Palmoria Group emp-data'[Bonus Amount]
+    Total Amount =
+          'Palmoria Group emp-data'[Salary]+'Palmoria Group emp-data'[Bonus Amount]
+
+### Data Visualization and Interpretation
+---
