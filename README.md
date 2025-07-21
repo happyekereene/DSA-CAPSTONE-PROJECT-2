@@ -20,7 +20,7 @@
 
 [Data Visualization and Interpretation](data-visualization-and-interpretation)
 
-[Recommendations](recommendations)
+[Recommendations To Palmoria Group Stakeholders](recommendations-to-palmoria-group-stakeholders)
 
 [Summary](summary)
 
@@ -157,24 +157,38 @@ The dashboard consists of:
 7.	Total Amount Paid Per Region
 
 - **Key Insights in Details
-1.	Gender Distribution of Employees
-o	Males: 465 (53.15%)
-o	Females: 441 (46.62%)
-o	Unspecified: 40 (4.23%)
-✅ The company has an almost equal gender balance, with a slight male majority.
-2.	Gender Distribution by Department
-o	Most departments show a fairly balanced gender mix, though some like Product and Engineering have more males.
-✅ Diversity initiatives could target departments with low female representation.
-3.	Gender Distribution by Region
-o	All regions (Kaduna, Abuja, Lagos) have relatively even gender representation, but Kaduna has the highest number of employees.
-✅ Recruitment might be more active in Kaduna or it serves as a major operational hub.
-4.	Average Salary by Gender
-o	Unspecified: $78K
-o	Male: $75K
-o	Female: $72K
-✅ Gender pay gaps are relatively small but still noticeable. Further auditing is recommended.
+1.	Gender Distribution of Employees: With the pie chart showing the total number of males as 465 (53.15%), females as 441 (46.62%), and unspecified as 40 (4.23%), the company has an almost equal gender balance, with a slight male majority.
+2.	Gender Distribution by Department: The column chart reveals that most departments show a fairly balanced gender mix, though some like Product and Engineering have more males.
+3.	Gender Distribution by Region: The bar chart reveals that regions (Kaduna, Abuja, Lagos) have relatively even gender representation, but Kaduna has the highest number of employees. Recruitment might be more active in Kaduna or it serves as a major operational hub.
+4.	Distribution of Ratings Based on Gender: Males have more "Very Good" ratings (212), while females also perform well with 190 "Very Good" ratings. Performance is not heavily gender-skewed, supporting gender-neutral productivity.
+5.	Average Salary by Gender: The average salaries earned by the different gender revealed as Unspecified ($78K), Male ($75K) and Female ($72K) indicate that pay gaps are relatively small but still noticeable.
+6.	Salary Band by Region: Lagos employees dominate higher pay brackets, while Kaduna has more employees in the $91K–$110K range. It is safe to say there may be role specialization or seniority clusters in Lagos.
+7.	Total Amount Paid Per Region: From the bar chart,	Kaduna shows total amount ($12.1), Abuja ($10.5M) and Lagos ($9.2M) to be paid to be paid in their respective regions. Kaduna has the highest workforce and salary spend. Important for budget allocations.
 
+-Additional insights
+* Employees in High Salary Brackets: 292 employees earn salaries ≥ $90K. High-skill or leadership roles may form a considerable portion of the workforce. Though with the recent regulation requirement for manufacturing companies to pay employees a minimum of $90,000, Palmoria Group has a long way to go as only 292 employees satisfy this condition compared to the 874 workforce population.
+* Departmental Spread of Employees shows that all 12 departments are covered, with the most populated departments being Product, Business Development, and Engineering. These likely represent Palmoria’s core functions.
+* Total bonus incentive as $959.89K is substantial. It Could be evaluated further for alignment with performance.
+* Majority of employees are rated Very Good or Good, but too many are Not Rated. Performance appraisal process may need tighter enforcement.
 
+### Recommendations To Palmoria Group Stakeholders
+---
+1.	Tighten Performance Reviews
+    - Too many “Not Rated” entries reduce the integrity of performance tracking. HR should ensure full appraisal completion.
+2.	Address Pay Equity Gaps
+    - Even minor gender-based salary differences should be reviewed periodically to uphold fairness and retain top talent.
+3.	Optimize Regional Costing
+    - Kaduna’s high payroll burden should be analyzed to ensure resource efficiency and ROI.
+4.	Align Bonuses with Performance Ratings
+    - Consider a clearer bonus policy tied to verified performance scores to maximize motivation and fairness.
+5.	Succession Planning in High-Salary Bands
+   - With 292 employees earning $90K+, ensure leadership development and succession plans are in place.
+6.	Develop Data-Driven Workforce Policies
+   - Use these insights for strategic decisions around hiring, training, promotions, and compensation across regions and departments
+
+### Summary
+---
+Generally, the overall balanced workforce deplects gender equity in Palmoria Group and the high investment in salaries and bonuses suggests a competitive HR strategy. Nevertheless, all recommendations should be considered to clear Palmoria Group off misconceptions and increase her reach and impact to the ends of the world.
 
 
 
