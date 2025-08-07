@@ -2,27 +2,27 @@
 
 ### PALMORIA GROUP HUMAN RESOURCE ANALYSIS
 
-[Project Overview](project-overview)
+[Project Overview](#project-overview)
 
-[Objectives](objectives)
+[Objectives](#objectives)
 
-[Data Source](data-source)
+[Data Source](#data-source)
 
-[Data Description or Characteristics](data-description-or-characteristics)
+[Data Description or Characteristics](#data-description-or-characteristics)
 
-[Tools Used](tools-used)
+[Tools Used](#tools-used)
 
-[Data Cleaning and Preparation](data-cleaning-and-preparation)
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
 
-[Exploratory Data Analysis](exploratory-data-analysis)
+[Exploratory Data Analysis](#exploratory-data-analysis)
 
-[Data Analysis](data-analysis)
+[Data Analysis](#data-analysis)
 
-[Data Visualization and Interpretation](data-visualization-and-interpretation)
+[Data Visualization and Interpretation](#data-visualization-and-interpretation)
 
-[Recommendations To Palmoria Group Stakeholders](recommendations-to-palmoria-group-stakeholders)
+[Recommendations To Palmoria Group Stakeholders](#recommendations-to-palmoria-group-stakeholders)
 
-[Summary](summary)
+[Summary](#summary)
 
 ### Project Overview
 ---
